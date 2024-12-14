@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scramble Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+       
+        <div class="Word">
+            <div class="details">
+                <div class="header"><h2>WORD SCRAMBLE GAME</h2></div>
+                <hr>
+                <p class="HInt">HINT: <span></span></p>
+                <p class="time">Time Left: <span><b>30</b>s</span></p>
+            </div>
+            <input type="text" spellcheck="false" placeholder="Enter a valid word">
+            <div class="buttons">
+                <button class="refresh-word">Refresh Word</button>
+                <button class="check-word">Check-Word</button>
+            </div>
+            <div class="score-area"><span>Score:</span><span class="score">0</span></div>
+        </div>
+    </div>
+    <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="modalText"></p>
+    </div></div>
+
+    <script src="tello.js"></script>
+</body>
+</html>
